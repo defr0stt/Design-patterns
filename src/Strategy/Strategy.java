@@ -36,6 +36,22 @@ class StrategySubtraction implements Strategic<String>
     }
 }
 
+class StrategyMultiplication implements Strategic<String>
+{
+    @Override
+    public String execute(int a, int b) {
+        return "Multiplication : " + a + " * " + b + " = " + (a*b);
+    }
+}
+
+class StrategyDivision implements Strategic<String>
+{
+    @Override
+    public String execute(int a, int b) {
+        return "Division : " + a + " / " + b + " = " + (a/b);
+    }
+}
+
 interface Strategic<Type>
 {
     public <Type> Type execute(int a, int b);
