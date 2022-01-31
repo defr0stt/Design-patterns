@@ -25,8 +25,8 @@ public class FactoryDemo
             System.out.print(" -> ");
             way = scanner.nextInt();
             switch (way) {
-                case 1: temp = new ByShip(); break;
-                case 2: temp = new ByBoat(); break;
+                case 1: temp = new ByCar(); break;
+                case 2: temp = new ByBike(); break;
             }
         } else {
             factory = new Sea();
@@ -39,7 +39,7 @@ public class FactoryDemo
                 case 1: temp = new ByShip(); break;
                 case 2: temp = new ByBoat(); break;
             }
-            System.out.println("So u choose : " + factory.delivering(temp));
         }
+        System.out.println("So u choose : " + factory.delivering(temp));
     }
 }
