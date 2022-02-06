@@ -5,13 +5,19 @@ package Factory;
 
 public abstract class Factory
 {
-    public String delivering(FactoryInterface factoryInterface1)
-    {
-        FactoryInterface factoryInterface = createWayToDeliver(factoryInterface1);
-        return factoryInterface.deliver();
+    public static Factory way(String way){
+        switch (way){
+            case "Road": return new Road();
+            case "Sea": return new Sea();
+            default: return null;
+        }
     }
 
-    protected abstract FactoryInterface createWayToDeliver(FactoryInterface factoryInterface);
+    public abstract FactoryInterface vehicleWay(String line);
+
+    public String delivering(FactoryInterface factoryInterface1) {
+        return factoryInterface1.deliver();
+    }
 }
 
 class ByCar implements FactoryInterface
@@ -20,6 +26,7 @@ class ByCar implements FactoryInterface
     public String deliver() {
         return "road delivering by car";
     }
+
 }
 
 class ByBike implements FactoryInterface
@@ -36,7 +43,6 @@ class ByShip implements FactoryInterface
     public String deliver() {
         return "sea delivering by ship";
     }
-
 }
 
 class ByBoat implements FactoryInterface
@@ -50,11 +56,11 @@ class ByBoat implements FactoryInterface
 class Road extends Factory
 {
     @Override
-    public FactoryInterface createWayToDeliver(FactoryInterface factoryInterface) {
-        if(factoryInterface instanceof ByCar)
-            return new ByCar();
-        else {
-            return new ByBike();
+    public FactoryInterface vehicleWay(String line) {
+        switch (line){
+            case "Car": return new ByCar();
+            case "Bike": return new ByBike();
+            default: return null;
         }
     }
 }
@@ -62,11 +68,11 @@ class Road extends Factory
 class Sea extends Factory
 {
     @Override
-    public FactoryInterface createWayToDeliver(FactoryInterface factoryInterface) {
-        if(factoryInterface instanceof ByShip)
-            return new ByShip();
-        else {
-            return new ByBoat();
+    public FactoryInterface vehicleWay(String line) {
+        switch (line){
+            case "Ship": return new ByShip();
+            case "Boat": return new ByBoat();
+            default: return null;
         }
     }
 }

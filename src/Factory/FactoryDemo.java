@@ -13,31 +13,31 @@ public class FactoryDemo
         Scanner scanner = new Scanner(System.in);
         int way = scanner.nextInt();
 
-        Factory factory;
+        Factory factory = null;
         FactoryInterface temp = null;
         System.out.println("------------------------" +
                 "\n    Choose vehicle :\n");
         if (way == 1) {
-            factory = new Road();
+            factory = Factory.way("Road");
             System.out.println(
                     "      1 - By car\n" +
                             "      2 - By bike\n");
             System.out.print(" -> ");
             way = scanner.nextInt();
             switch (way) {
-                case 1: temp = new ByCar(); break;
-                case 2: temp = new ByBike(); break;
+                case 1: temp = factory.vehicleWay("Car"); break;
+                case 2: temp = factory.vehicleWay("Bike"); break;
             }
         } else {
-            factory = new Sea();
+            factory = Factory.way("Sea");
             System.out.println(
                     "      1 - By ship\n" +
                             "      2 - By boat\n");
             System.out.print(" -> ");
             way = scanner.nextInt();
             switch (way) {
-                case 1: temp = new ByShip(); break;
-                case 2: temp = new ByBoat(); break;
+                case 1: temp = factory.vehicleWay("Ship"); break;
+                case 2: temp = factory.vehicleWay("Boat"); break;
             }
         }
         System.out.println("So u choose : " + factory.delivering(temp));
