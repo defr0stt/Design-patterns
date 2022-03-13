@@ -28,19 +28,20 @@ public class Adapter
             if(put){
                 vehicle.setEngine(engine);
             }
-        } else if(vehicle.getMin() > engine.getPower()) {
-            System.out.println("This engine : " + engine + " adapted to minimum " + vehicle.getMin() + "HP");
-            Engine tempEngine = new Engine(engine);
-            tempEngine.setPower(vehicle.getMin());
-            if(put){
-                vehicle.setEngine(tempEngine);
-            }
-        } else if(vehicle.getMax() < engine.getPower()) {
-            System.out.println("This engine : " + engine + " adapted to maximum " + vehicle.getMax() + "HP");
-            Engine tempEngine = new Engine(engine);
-            tempEngine.setPower(vehicle.getMax());
-            if(put){
-                vehicle.setEngine(tempEngine);
+        } else {
+            Engine tempEngine = put ? new Engine(engine) : null;
+            if(vehicle.getMin() > engine.getPower()) {
+                System.out.println("This engine : " + engine + " adapted to minimum " + vehicle.getMin() + "HP");
+                if(put){
+                    tempEngine.setPower(vehicle.getMin());
+                    vehicle.setEngine(tempEngine);
+                }
+            } else if(vehicle.getMax() < engine.getPower()) {
+                System.out.println("This engine : " + engine + " adapted to maximum " + vehicle.getMax() + "HP");
+                if(put){
+                    tempEngine.setPower(vehicle.getMax());
+                    vehicle.setEngine(tempEngine);
+                }
             }
         }
     }
