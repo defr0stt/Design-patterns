@@ -30,5 +30,9 @@ public class AdapterDemo
         System.out.println("--------------------");
         System.out.println(truck);
         System.out.println(passengerCar);
+
+        System.out.println("--------------------");
+        System.out.println(truck.getEngine());
+        System.out.println(passengerCar.getEngine());
     }
 }
