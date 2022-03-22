@@ -2,6 +2,18 @@ package Composite;
 
 import java.util.ArrayList;
 
+// It is a structural design plan that allows you to
+// group several objects in a tree structure and then
+// work with it as if it were a single object.
+//
+// Advantages :
+//      + Simplifies the client architecture when working
+//          with a complex component tree.
+//      + Facilitates the addition of new types of components.
+//
+// Disadvantages :
+///     - Creates too general classroom design.
+
 public class Composite implements Component {
 
     private ArrayList<Component> component = new ArrayList<>();

@@ -15,8 +15,6 @@ M
 src/Builder/StoneBuilder.java,8\2\82bd367b86174bee533a8a81678ddc937d1d69e4
 L
 src/Builder/WoodBuilder.java,9\e\9e68f0ff5a8912ebdc65a9c536420f62f5613036
-H
-src/Builder/Builder.java,4\1\41c6a7663df522fcbcc821a5e59d688ab238c01a
 I
 src/Builder/Director.java,f\a\fa73b3e612de700382d29e80faf8418d104dd5dd
 L
