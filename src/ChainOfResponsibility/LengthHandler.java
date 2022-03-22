@@ -3,11 +3,6 @@ package ChainOfResponsibility;
 public class LengthHandler extends ChainOfResponsibility {
 
     @Override
-    public ChainOfResponsibility next() {
-        return new PalindromeHandler();
-    }
-
-    @Override
     public boolean checkWordsCount(String line) {
         if(line.length() < 10){
             System.out.println("Length check completed...");

@@ -3,7 +3,6 @@ package ChainOfResponsibility;
 
 public class LineChecker {
 
-    private ChainOfResponsibility chainOfResponsibility;
     private static LineChecker lineChecker;
     private LineChecker(){}
 
@@ -14,15 +13,15 @@ public class LineChecker {
         return lineChecker;
     }
 
-    public boolean isRegular(String line){
-        chainOfResponsibility = new CaseHandler();
-        while (chainOfResponsibility != null){
-            if(chainOfResponsibility.checkWordsCount(line))
-                chainOfResponsibility = chainOfResponsibility.next();
-            else {
-                return false;
-            }
-        }
-        return true;
+    public void isRegular(String line){
+        Container container = new Container();
+        ChainOfResponsibility lengthHandler = new LengthHandler();
+        CaseHandler caseHandler = new CaseHandler();
+        PalindromeHandler palindromeHandler = new PalindromeHandler();
+
+        container.add(caseHandler);
+        container.add(lengthHandler);
+        container.add(palindromeHandler);
+        container.start(line);
     }
 }

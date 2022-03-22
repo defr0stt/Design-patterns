@@ -14,9 +14,12 @@ package ChainOfResponsibility;
 // Advantages :
 //      - The request may not be processed by anyone.
 
-public abstract class ChainOfResponsibility {
+public abstract class ChainOfResponsibility implements CommonInterface {
 
-    public abstract ChainOfResponsibility next();
-    public abstract boolean checkWordsCount(String line);
+    private Container container;
 
+    @Override
+    public boolean checkWordsCount(String line) {
+        return container.checkWordsCount(line);
+    }
 }
