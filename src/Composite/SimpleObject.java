@@ -14,6 +14,6 @@ class SimpleObject implements Component {
 
     @Override
     public int execute() {
-        return 0;
+        return components.getPrice();
     }
 }

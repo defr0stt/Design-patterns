@@ -42,10 +42,10 @@ public class Composite implements Component {
         for (Component component1 : component){
             if(component1 instanceof ComplexObject complexObject){
                 result += complexObject.execute();
-            } else {
-                System.out.println("   - " + ((SimpleObject) component1).getComponents() +
-                        " = " + ((SimpleObject) component1).getComponents().getPrice());
-                result += ((SimpleObject) component1).getComponents().getPrice();
+            } else if(component1 instanceof SimpleObject simpleObject) {
+                System.out.println("   - " + simpleObject.getComponents() +
+                        " = " + simpleObject.execute());
+                result += simpleObject.execute();
             }
         }
         System.out.println(" Total price = " + result + "$");
