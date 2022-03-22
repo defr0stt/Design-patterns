@@ -53,3 +53,15 @@ N
 src/Strategy/StrategyDemo.java,a\5\a514b7a8ffd86c5baf5294244f0408e5ad170f86
 M
 src/State/MaterialObject.java,4\1\41e9ffa4bc0d3a09d3ed27af627f655d11e889f7
+L
+src/Decorator/Component.java,1\2\12bfb6f6a8ded9ef3827018c22020470214e3289
+T
+$src/Decorator/ConcreteComponent.java,d\2\d2c654501fe95cbdcbce35def971f276f0c37729
+L
+src/Decorator/Decorator.java,b\2\b22d9baf8efada7ed0b6dd6f7d6c7754e5529428
+P
+ src/Decorator/DecoratorDemo.java,c\0\c07a99051bcc3285b654927a1517fe500b2c93a8
+Q
+!src/Decorator/EmailDecorator.java,5\e\5e7980755de8497b4064af5d19743d9880911c97
+O
+src/Decorator/DecoratorSMS.java,8\3\833d8125880da35b6bbe5727627289b2e801e1c4
