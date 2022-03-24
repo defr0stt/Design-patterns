@@ -63,3 +63,33 @@ Q
 !src/Decorator/EmailDecorator.java,5\e\5e7980755de8497b4064af5d19743d9880911c97
 O
 src/Decorator/DecoratorSMS.java,8\3\833d8125880da35b6bbe5727627289b2e801e1c4
+d
+4src/ChainOfResponsibility/ChainOfResponsibility.java,7\4\74cc7c476fb5a7e019c276bb0a963da5eef64161
+X
+(src/ChainOfResponsibility/Container.java,0\f\0f7eb9287b0529649643a3916c93a474c943c018
+^
+.src/ChainOfResponsibility/CommonInterface.java,f\e\fe657d267ae49ff15653c2435d69048e9739e866
+\
+,src/ChainOfResponsibility/LengthHandler.java,7\e\7e186d7063d89f19201a63d46a31d8737277b0fe
+Z
+*src/ChainOfResponsibility/LineChecker.java,9\d\9d59e94112e6c8522759c8d819225100cbbdc4c0
+Z
+*src/ChainOfResponsibility/CaseHandler.java,8\5\850a1738439ab1177dfd38257e1646de28e38f82
+h
+8src/ChainOfResponsibility/ChainOfResponsibilityDemo.java,0\7\070ebc33b0eff077fe5ea466b763e39fbc33a84f
+`
+0src/ChainOfResponsibility/PalindromeHandler.java,9\1\91f6f4864132163c1eb11227a622e9f13bef0ffd
+P
+ src/Composite/ComplexObject.java,2\5\2532189c57214a323a81a3769f882e5e95db34d9
+L
+src/Composite/Component.java,2\8\2841ee9914a951d7ac934623e7b6ec6d1102822e
+U
+%src/Composite/ComputerComponents.java,0\f\0f5f6f7ab47d62d3e2c103b36fbd4988d86f1994
+H
+src/Builder/Builder.java,4\1\41c6a7663df522fcbcc821a5e59d688ab238c01a
+P
+ src/Composite/CompositeDemo.java,2\b\2bfcd8643428a9bed79a1afa15dc59572fa80a3f
+L
+src/Composite/Composite.java,a\2\a237b84766be3ab9b9880e03e829654ab3908c51
+O
+src/Composite/SimpleObject.java,b\1\b1ef2d6f4261917b26f890b1448d20e21acb861a
