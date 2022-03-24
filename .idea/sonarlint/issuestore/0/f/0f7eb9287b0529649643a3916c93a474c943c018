@@ -1,0 +1,6 @@
+
+c
+java:S1117"HRename "chainOfResponsibility" which hides the field declared at line 6.(ìÍÊıÿÿÿÿ
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ª¾ıÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(øÇ×6

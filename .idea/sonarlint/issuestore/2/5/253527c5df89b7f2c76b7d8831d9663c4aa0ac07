@@ -1,0 +1,15 @@
+
+J
+java:S3740	"/Provide the parametrized type for this generic.(ŠıÁçûÿÿÿÿ
+J
+java:S3740
+"/Provide the parametrized type for this generic.(ËıÁŸüÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(”ŠÓ
+=
+java:S23267""Type is not used in the interface.(¨ˆÆ•üÿÿÿÿ
+c	java:S1197"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(¨ˆÆ•üÿÿÿÿ
+^	java:S1199"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ƒ‡„Î
+V
+java:S49779"@Rename "Type" which hides a type parameter from the outer scope.(ƒ‡„Î
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…ó‰üÿÿÿÿ

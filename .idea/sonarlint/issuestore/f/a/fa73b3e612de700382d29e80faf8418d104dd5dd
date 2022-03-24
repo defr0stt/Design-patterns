@@ -1,0 +1,13 @@
+
+k
+java:S1450"URemove the "result" field and declare it as a local variable in the relevant methods.(–·èé
+N	java:S106""9Replace this use of System.out or System.err by a logger.(§á½Õ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(ğ³´
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ÊËÆ„øÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ğËÓÕ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(Ø®àşÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(Ÿ°Ëüÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ù¹‡¼ûÿÿÿÿ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(»€ı
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(…½“âûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»Ä€²ÿÿÿÿÿ
