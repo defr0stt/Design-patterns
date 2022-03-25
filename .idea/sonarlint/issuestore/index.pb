@@ -93,3 +93,15 @@ L
 src/Composite/Composite.java,a\2\a237b84766be3ab9b9880e03e829654ab3908c51
 O
 src/Composite/SimpleObject.java,b\1\b1ef2d6f4261917b26f890b1448d20e21acb861a
+J
+src/Mediator/Aircraft.java,4\0\40850b844443d67aaa110f694c3d07637d1f56c7
+L
+src/Mediator/Dispatcher.java,6\1\61ec4f18936def4e92da9e256e4443f17874f9a8
+L
+src/Mediator/Helicopter.java,b\9\b9fc3fe4357fbc64a61a30546af4b6e902c6bdc8
+J
+src/Mediator/Mediator.java,a\c\ac3d97fd0f36d6fc3a97d8cccc2101b1b0a27f95
+G
+src/Mediator/Plane.java,3\7\373d8d5e5c364445c3dbeed9f2f8e249d729ff9c
+N
+src/Mediator/MediatorDemo.java,4\d\4d5c14cc963e3e817b81bb535a4ac4e7d4104b52
