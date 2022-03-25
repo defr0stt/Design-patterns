@@ -2,6 +2,12 @@ package Memento;
 
 import java.util.ArrayList;
 
+// The guardian must know when to take a picture of the creator and when
+// it needs to be restored. The guardian can keep the history
+// past states of the creator in the form of a stack of images. When needed
+// will undo the last operation, it will take the "top" image from the
+// stack and pass it to the creator for recovery.
+
 public class Helper {
     private static ArrayList<Memento.MementoPhoto> mementos = new ArrayList<>();
     private Helper(){}
