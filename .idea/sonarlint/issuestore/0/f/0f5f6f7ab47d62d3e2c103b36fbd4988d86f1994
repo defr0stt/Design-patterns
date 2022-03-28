@@ -1,5 +1,0 @@
-
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(æªÉ³
-Q
-java:S1128"6Remove this unused import 'AbstractFactory.VideoCard'.(ùž›Žýÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(×êÛßÿÿÿÿÿ
