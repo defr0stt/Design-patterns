@@ -17,15 +17,10 @@ package Factory;
 //          classes for each product class requires the creation of
 //          dig your own subclass of the creator.
 
-public abstract class Factory
-{
-    public void transportWay(Transport transport){
-        transport.deliveringWay();
+public abstract class Factory {
+    public void deliverOrder(){
+        Transport transport = crateTransportWay();
+        System.out.println(transport.deliver());
     }
-
-    public void deliveringWay(Transport transport){
-        transport.deliver();
-    }
-
-    public abstract Transport crateTransportWay();
+    protected abstract Transport crateTransportWay();
 }

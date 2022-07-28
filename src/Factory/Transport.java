@@ -1,7 +1,5 @@
 package Factory;
 
-public interface Transport
-{
-    public void deliver();
-    public void deliveringWay();
+public interface Transport {
+    String deliver();
 }

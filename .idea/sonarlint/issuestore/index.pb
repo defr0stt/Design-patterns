@@ -79,18 +79,12 @@ h
 8src/ChainOfResponsibility/ChainOfResponsibilityDemo.java,0\7\070ebc33b0eff077fe5ea466b763e39fbc33a84f
 `
 0src/ChainOfResponsibility/PalindromeHandler.java,9\1\91f6f4864132163c1eb11227a622e9f13bef0ffd
-P
- src/Composite/ComplexObject.java,2\5\2532189c57214a323a81a3769f882e5e95db34d9
 L
 src/Composite/Component.java,2\8\2841ee9914a951d7ac934623e7b6ec6d1102822e
 H
 src/Builder/Builder.java,4\1\41c6a7663df522fcbcc821a5e59d688ab238c01a
 P
  src/Composite/CompositeDemo.java,2\b\2bfcd8643428a9bed79a1afa15dc59572fa80a3f
-L
-src/Composite/Composite.java,a\2\a237b84766be3ab9b9880e03e829654ab3908c51
-O
-src/Composite/SimpleObject.java,b\1\b1ef2d6f4261917b26f890b1448d20e21acb861a
 J
 src/Mediator/Aircraft.java,4\0\40850b844443d67aaa110f694c3d07637d1f56c7
 L
@@ -109,3 +103,41 @@ H
 src/Memento/Memento.java,1\f\1f485fceb83683e1956c755505fc7664a3c4a08d
 L
 src/Memento/MementoDemo.java,e\9\e9025252f4f3694d55660139baa8fee83a747357
+H
+src/Visitor/Visitor.java,c\3\c348209ba016a25559c3b80412e8fab6b6caeafd
+L
+src/Visitor/PersonVisit.java,9\a\9aa1a8a61ecb1abeb9404793c3c781f476126602
+L
+src/Visitor/VisitorDemo.java,3\3\3395c6e9f7fde63ac87e7af54e77e29a940a7e08
+I
+src/Visitor/Building.java,5\a\5a74e21286b25e99eb746dc5a8731d488e3763ce
+F
+src/Visitor/House.java,1\6\16a9214ede926c927fcb109a8fd20a56036675f2
+G
+src/Visitor/Museum.java,6\1\618bee94e47ad9b96e944f666672b0c731e584a8
+F
+src/Factory/Earth.java,b\1\b19d69bb65606859362345fb079113ce2dc803b5
+K
+src/Factory/Production.java,1\1\11c12b0fb91a86502e9a405f19e00db178bb2ef4
+P
+ src/Flyweight/FlyweightDemo.java,7\3\734d4449d93290fca4fc2cef84aa1aef8beb6a21
+I
+src/Flyweight/Forest.java,7\7\777de2687bcee3c9f041d500889995c5b08da015
+N
+src/Flyweight/TreeFactory.java,2\1\214d0313b0f87283b4aa6f7a7542d9d6d723dacf
+K
+src/Flyweight/TreeType.java,8\d\8d4d17bff6140f98032f4c8de8d070ddc09984a6
+H
+src/Flyweight/Types.java,b\e\be03dc0615d95d48773eb2b3ae2cb103098073fb
+P
+ src/Flyweight/FlyweightTree.java,2\0\20b31c71d46920beb1d8ecc95624982df523fd52
+I
+src/Flyweight/Height.java,7\3\73dbd9440a8f2d2bea13dc9a6b5abb76e75df951
+J
+src/Proxy/Application.java,9\6\96997cff072e8b9317dc3f14b1f2b5e2ad358484
+G
+src/Proxy/DataBase.java,8\a\8a101aa112e8f061def80b9bfd60069c216b00b0
+L
+src/Proxy/DataBaseProxy.java,7\5\754afc15fe3c8fcadabccb2ad674b9ce8d659943
+H
+src/Proxy/ProxyDemo.java,4\0\409ad2c02395ae7ce142332dd961ad7f653c94e7
