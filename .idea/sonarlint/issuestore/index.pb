@@ -115,10 +115,6 @@ F
 src/Visitor/House.java,1\6\16a9214ede926c927fcb109a8fd20a56036675f2
 G
 src/Visitor/Museum.java,6\1\618bee94e47ad9b96e944f666672b0c731e584a8
-F
-src/Factory/Earth.java,b\1\b19d69bb65606859362345fb079113ce2dc803b5
-K
-src/Factory/Production.java,1\1\11c12b0fb91a86502e9a405f19e00db178bb2ef4
 P
  src/Flyweight/FlyweightDemo.java,7\3\734d4449d93290fca4fc2cef84aa1aef8beb6a21
 I
@@ -141,3 +137,35 @@ L
 src/Proxy/DataBaseProxy.java,7\5\754afc15fe3c8fcadabccb2ad674b9ce8d659943
 H
 src/Proxy/ProxyDemo.java,4\0\409ad2c02395ae7ce142332dd961ad7f653c94e7
+D
+src/Proxy/Proxy.java,7\0\70a98d8748c0da78dcd14d89e51acd69106cb709
+O
+src/Composite/SimpleObject.java,b\1\b1ef2d6f4261917b26f890b1448d20e21acb861a
+U
+%src/Composite/ComputerComponents.java,0\f\0f5f6f7ab47d62d3e2c103b36fbd4988d86f1994
+P
+ src/Composite/ComplexObject.java,2\5\2532189c57214a323a81a3769f882e5e95db34d9
+L
+src/Composite/Composite.java,a\2\a237b84766be3ab9b9880e03e829654ab3908c51
+E
+src/Factory/Boat.java,7\7\77a3ca343789a0733d05df9e85fc8fb1cce2f31a
+L
+src/Factory/BoatFactory.java,d\2\d25d4c705627cab5eb4f241539e25ab82a433e26
+M
+src/Factory/EarthFactory.java,8\7\8751aec27cd1a8a27171c72c346b9741bc723712
+H
+src/Factory/Factory.java,e\3\e3c27f5c2c3e085f24f925cf228a7bae083cc778
+P
+ src/Factory/FactoryLogistic.java,7\8\78a54d692dfab41098cf04fad319d76251f0fcdd
+I
+src/Factory/Logistic.java,8\2\8266fa4fecf8784a89c8834bc596fc1977d9968e
+M
+src/Factory/PlaneFactory.java,7\6\7682a22bda7253ff307d569407f78886462a3dde
+J
+src/Factory/Transport.java,2\e\2e56c3239308d5b0c1f1c160f10f97f2cfc93d19
+F
+src/Factory/Truck.java,3\d\3d9abf8a91c6a8b03a2734586088e479273ead27
+L
+src/Factory/FactoryDemo.java,d\7\d7d5bb17e80c9bcb23daebb2ce1d0d152ae0643f
+F
+src/Factory/Plane.java,a\5\a5dde00d7a7134dc0c266f9b063393cc11af0bc5
