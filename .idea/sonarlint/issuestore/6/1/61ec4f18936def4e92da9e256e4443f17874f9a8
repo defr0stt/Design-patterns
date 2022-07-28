@@ -1,0 +1,6 @@
+
+R
+java:S1117"=Rename "helicopter" which hides the field declared at line 7.(à«ÃW
+S
+java:S1117"8Rename "plane" which hides the field declared at line 8.(ƒÔÒöÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬¿•žûÿÿÿÿ
