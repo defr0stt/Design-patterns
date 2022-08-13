@@ -1,6 +1,4 @@
 
-H
-src/Adapter/Adapter.java,3\e\3e981487cf128026041744093f2fd06b643d69e1
 X
 (src/AbstractFactory/AbstractFactory.java,7\b\7b5fd81e29b6aee897927483b5cfed1543c073e7
 N
@@ -115,10 +113,6 @@ F
 src/Visitor/House.java,1\6\16a9214ede926c927fcb109a8fd20a56036675f2
 G
 src/Visitor/Museum.java,6\1\618bee94e47ad9b96e944f666672b0c731e584a8
-F
-src/Factory/Earth.java,b\1\b19d69bb65606859362345fb079113ce2dc803b5
-K
-src/Factory/Production.java,1\1\11c12b0fb91a86502e9a405f19e00db178bb2ef4
 P
  src/Flyweight/FlyweightDemo.java,7\3\734d4449d93290fca4fc2cef84aa1aef8beb6a21
 I
@@ -141,3 +135,17 @@ L
 src/Proxy/DataBaseProxy.java,7\5\754afc15fe3c8fcadabccb2ad674b9ce8d659943
 H
 src/Proxy/ProxyDemo.java,4\0\409ad2c02395ae7ce142332dd961ad7f653c94e7
+N
+src/Command/DeleteCommand.java,d\3\d3460d97a6bc1773cdfc17185805c7f32c1a2b3e
+L
+src/Command/ReadCommand.java,3\8\3868f3eab1f02bf453bbc6585b743ca313b4a66a
+N
+src/Command/CreateCommand.java,7\a\7a94d604fa8bddcbd77214c7e72e665b25f9731e
+L
+src/Command/CommandDemo.java,2\b\2b9f3c66324593702d07b6c5fac7919463af2fd2
+H
+src/Command/Command.java,4\a\4a33220412a3e89836fd3cdd4fbca87bf0c1e734
+L
+src/Command/SaveCommand.java,1\f\1f916c2d73b51cc891e07a3e1f43e4023b737532
+P
+ src/Command/DirectorCommand.java,2\0\20f13d2c9e2e1d0a60e778d935a02cf69122b704
